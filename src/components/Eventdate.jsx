@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React from 'react'
 import { AiFillCalendar } from "react-icons/ai"
 import { BiTime } from "react-icons/bi"
 import "../styles/eventdate.css"
