@@ -1,0 +1,25 @@
+.eventicon {
+    font-size: 1.5em;
+}
+
+.event-div {
+    border: 1px solid #ccc;
+    height: 3em;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    background: rgba(252, 192, 28, 0.2);
+}
+
+.event-div input {
+    outline: none;
+    width: 60vw;
+    height: 3.5em;
+    padding: 1em;
+
+}
+
+button:disabled{
+    background: grey
+}

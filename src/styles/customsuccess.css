@@ -1,0 +1,14 @@
+.success-logo{
+    border: 1px solid #fcc01c;
+    border-radius: 50%;
+    font-size: 3em;
+    font-weight: 600;
+    padding: 0.5em;
+    color: #fcc01c;
+    background-color: #f8e69c;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,94 @@
+.fullmenu .renderPage{
+    margin:2em;
+    font-size: 0.7em;
+}
+.fullmenu nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 87vw;
+    margin: 0 auto;
+}
+
+.fullmenu nav ul li {
+    padding: 1em;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.background-line {
+    width: 87vw;
+    margin: 0 5em;
+    background: grey;
+    height: 0.5em;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+.left-line, .center-line, .right-line {
+    width: 20vw;
+    background: #fcc01c;
+    height: 0.5em;
+    border-radius: 10px;
+}
+.mid_line{
+    display: none;
+}
+.left-line{
+    position: absolute;
+    left: 0
+}
+.center-line {
+    position: absolute;
+    left: 30vw;
+}
+.right-line {
+    position: absolute;
+    right: 0;
+}
+.boxflex{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 650px){
+.fullmenu .renderPage{
+    font-size: 1em;
+    margin: 1em 0;
+}
+.fullmenu nav ul{
+    width: 60vw;
+    margin: 0 5em;
+    justify-content: flex-start;
+}
+
+.fullmenu nav ul li{
+    font-size: 1em;
+}
+
+.background-line{
+    width: 60vw;
+    border-radius: 10px;
+    margin: 0 5em;
+}
+.left-line,
+.center-line,
+.right-line {
+    width: 7vw;
+    background: #fcc01c;
+}
+.right-line{
+    position: absolute;
+    left: 14.5vw;
+}
+.center-line {
+    position: absolute;
+    left: 7vw;
+}
+
+.boxflex {
+    flex-direction: row;
+    justify-content: space-around;
+}
+}

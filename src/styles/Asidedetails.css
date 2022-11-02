@@ -1,0 +1,201 @@
+.aside-div{
+    height: 100vh;
+    width: 100vw;
+    font-weight: 600;
+    }
+
+.aside-heading {
+    color: #fcc01c;
+    font-weight: 600;
+    width: 90vw;
+
+    }
+.dietary ul li{
+    border: 1px solid black;
+    padding: 0.3em 0.6em;
+    margin: 0.2em;
+    width: 90vw;
+}
+
+.dietary ul{
+    margin: 1em 0;
+}
+.dietary textarea{
+    width: 90vw;
+}
+.top-aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 1em;
+    padding: 1em;
+    border-bottom: 1px solid #323335;
+}
+.top-aside svg{
+    font-size: 3em
+}
+.dragbtn{
+    margin: 0.5em auto;
+    width: 5em;
+    height: 2em;
+    background: #aaa;
+    border-radius: 15px;
+}
+ul li{
+    list-style: none;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+}
+.order-info{
+    font-size: 0.8em;
+    font-weight: 50;
+}
+.datentime{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-lg{
+    display: none;
+}
+
+@keyframes slide-in{
+    25%{
+        display: none;
+        height: 0;
+
+    }
+    50%{
+        display: block;
+        height: 25vh;
+        position: absolute;
+        bottom: 0;
+    }
+    75%{
+        display: block;
+        height: 50vh;
+        position: absolute;
+        bottom: 0;
+    }
+    100%{
+        display: block;
+        height: 100vh;
+        position: absolute;
+        bottom: 0;
+    }
+}
+.openAside{
+    animation: slide-in 0.3s;
+    animation-direction: reverse;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    padding: 1em;
+    position: fixed;
+    background: white;
+    top: 0;
+    height: max-content;
+    font-size: 0.6em;
+    border: 1px solid grey;
+}
+
+.order-dets li {
+    display: flex;
+    justify-content: space-between;
+}
+.edit-btn,
+.book_now{
+    background: #fcc01c;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    justify-self: center;
+    margin: 1em auto;
+    width: 90vw;
+    height: 3em;
+    text-align: center;
+}
+.closeAside{
+   display: none;
+}
+
+.aside_btn{
+    position: fixed;
+    bottom: 0;
+    background: #fcc01c;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 1em;
+    width: 100vw;
+    height: 3.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 650px){
+.aside-div {
+    display: block;
+    padding: 1em;
+    position: absolute;
+    right: 2rem;
+    top: 40rem;
+    height: max-content;
+    font-size: 14px;
+    width: 26vw;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+.edit-btn, .book_now, .dietary textarea, 
+.aside-heading, .top-aside{
+    width: 20vw;
+}
+.form-details{
+    width: 20vw;
+    text-align: left;
+}
+.dietary ul li {
+    width: 20vw;
+    margin: 0.5 auto;
+}
+.datentime{
+    justify-content: space-between;
+}
+.closeAside{
+    display: block;
+}
+.dragbtn{
+    display: none;
+}
+.top-aside svg{
+    display: none;
+}
+.aside_btn{
+    display: none;
+}
+.btn-div{
+    position: relative;
+    height: 3em;
+    width: 26vw;
+    margin: 3em 1em;
+}
+.cart-div{
+    background: #fcc01c;
+    position: absolute;
+    font-size: 1.3em;
+    top: 0;
+    right: 2em;
+    padding: 1.5em;
+    border-radius: 50%;
+}
+.cart-lg{
+    display: block;
+}
+}

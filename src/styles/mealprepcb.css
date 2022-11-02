@@ -1,0 +1,107 @@
+.custom-bookings nav{
+    display: inline-flex;
+}
+.col-bar {
+    width: 6vw;
+    background: #fcc01c;
+    height: 0.3em;
+    margin: 0.2em;
+    border-radius: 5px;
+}
+
+
+.white-bar {
+    width: 6vw;
+    border: 1px solid#fcc01c;
+    height: 0.3em;
+    margin: 0.2em;
+    border-radius: 5px;
+}
+.BckArrow {
+    color: #fcc01c;
+    border: 1px solid #fcc01c;
+    font-size: 2em;
+    width: 3em;
+    margin: 1em;
+}
+
+.center-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    text-align: center;
+}
+.major-txt{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.multiple-values {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.custom-contd {
+    width: 8em;
+    margin: 1em;
+    padding: 0.8em;
+    font-size: 0.8em;
+    background: #fcc01c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.custom-value {
+    width: 8em;
+    height: 7em;
+    background: #f8e69c;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+    position: relative
+}
+.ab-circle {
+    width: 0.6em;
+    height: 0.6em;
+    border: 1px solid #fcc01c;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 1em;
+    top: 1em;
+}
+.custom-value:hover,
+.custom-value:active{
+    background: #fcc01c;
+}
+.sm-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sm-btn{
+    height: 5em;
+    width: 17em;
+    background: rgba(252, 192, 28, 0.2);
+    margin: 1em;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+}
+.sm-btn:active,
+.sm-btn:hover{
+    background: #fcc01c
+}
+@media screen and (min-width: 650px) {
+    .major-txt {
+            font-size: 2em;
+        }
+                
+        
+                
+                .custom-value svg{
+                    font-size: 2.5em;
+                }
+            }

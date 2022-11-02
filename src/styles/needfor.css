@@ -1,0 +1,36 @@
+
+.center-need{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+    
+}
+.need{
+    width: 9em;
+    height: 12rem;
+    background: #ffd93b;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 2em;
+    margin: 1em;
+    text-align: center;
+}
+.need svg{
+    font-size: 1.2em;
+}
+
+.need:hover, .need:active{
+    background: #fcc01c
+}
+
+@media screen and (min-width: 650px){
+    .center-need{
+        flex-direction: row;
+    }
+        .need {
+            width: 20em;
+            height: 11rem;
+        }
+}

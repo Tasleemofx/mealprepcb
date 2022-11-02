@@ -1,0 +1,86 @@
+/* styles for foodmenu first */
+.food_price{
+    font-weight: 600;
+    font-size: 2em;
+    color: #fcc01c
+}
+.foodone, .foodtwo, .foodone div, .foodtwo div{
+    display: flex;
+    font-weight: 600;
+}
+.foodone,
+.foodtwo{
+    justify-content:space-between;
+    border: 1px solid black;
+    margin: 1em 0;
+    padding: 1em;
+}
+.food_img{
+    width: 3em;
+    height: 2em;
+}
+
+/* styles for menu page */
+.y-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.menutype-btn{
+    width: 30vw;
+    height: 3em;
+    background: #fcc01c;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* .aside-details {
+    display: none
+    
+}
+@keyframes slide-in{
+    from{
+        display: none;
+
+    }
+    to{
+        display: block;
+    }
+}
+.open{
+    animation: slide-in 1s 0.5s;
+    display: block;
+    width: 100vw;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    font-size: 0.5em;
+    border: 1px solid grey;
+}
+
+.aside-details h3 {
+    color: #fcc01c;
+    font-weight: 600;
+} */
+
+@media screen and (min-width: 650px){
+.menus{
+    width: 60vw;
+    margin: 1em 5.8em;
+    padding: 1em;
+}
+.y-btns {
+    justify-content: space-between;
+    
+}
+.menutype-btn{
+    width: 24.8em;
+    height: 3.75em;
+    
+}
+.menutype-btn:disabled{
+    opacity: 0.2;
+}
+
+}

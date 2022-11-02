@@ -1,0 +1,12 @@
+.cuisine{
+    width: 20em;
+    height: 7em;
+    background: #f8e69c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    position: relative;
+}

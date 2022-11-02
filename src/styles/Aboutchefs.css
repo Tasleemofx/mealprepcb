@@ -1,0 +1,38 @@
+.aboutChef{
+width: 60vw;
+margin: 1em;
+}
+.location_icon{
+    color: #fcc01c
+}
+.tdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.add-details{
+    width: 70vw;
+    margin: 1em;
+    border: 1px solid #fcc01c;
+    padding: 1em;
+}
+.chef-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+@media screen and (min-width: 650px){
+    .aboutChef{
+        margin: 1em 5em;
+    }
+.tdetails{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.add-details{
+    width: 20vw;
+    
+}
+
+}

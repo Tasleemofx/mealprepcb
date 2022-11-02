@@ -1,0 +1,46 @@
+.trouble-banner {
+    width: 80vw;
+    height: 20vh;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 0.6em;
+    font-weight: 600;
+    background-image: url("./bgs/fd-bg.svg");
+    background-color: #f8e69c;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-div {
+    background: white;
+    padding: 0.6em;
+    width: max-content;
+}
+
+.message-div svg {
+    color: #fcc01c;
+    font-size: 0.8em;
+}
+
+@media screen and (min-width: 650px){
+.trouble-banner{
+    width: 90vw;
+    font-size: 1em;
+    background-size: cover;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.message-div svg{
+    color:#fcc01c;
+    font-size: 2em;
+}
+
+}

@@ -1,0 +1,55 @@
+.btn-boxes {
+    align-items: center;
+}
+
+.btn-box {
+    width: 6.3em;
+    height: 5.5em;
+    background: #f8e69c;
+    margin: 1em;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.btn-box:active,
+.btn-box:hover {
+    background: #fcc01c;
+}
+
+.custom-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.val_btn {
+    background: black;
+    color: white;
+    border: 0;
+    margin: 2px;
+    padding: 0.9em;
+}
+
+@media screen and (min-width: 650px) {
+    .btn-boxes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }  
+    .btn-box { height: 238px;
+        width: 428px;
+        left: 29px;
+        top: 448px;
+        border-radius: 0px;
+                    width: 6.3em;
+                    height: 5.5em;
+                    background: #f8e69c;
+                    margin: 1em;
+                    padding: 1em;
+                    text-align: center;
+                    font-size: 2.5em;
+        }
+    
+}

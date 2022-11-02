@@ -1,0 +1,42 @@
+.location-form{
+    font-size: 1em;
+}
+
+.location-icon{
+    font-size: 1em;
+    margin: 0.2em;
+}
+.input-div{
+    border: 1px solid #ccc;
+    height: 3em;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    background: rgba(252, 192, 28, 0.2);
+    position: relative;
+}
+
+.input-div input{
+    border: 0;
+    outline: none;
+    width: 50vw;
+    height: 4em;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+    
+}
+
+@media screen and (min-width: 650px){
+    .location-form {
+            font-size: 1.2em;
+        }
+    .location-icon {
+            font-size: 2.5em;
+            margin: 0.5em;
+        }
+    .input-div input{
+        width: 55vw;
+    }
+}

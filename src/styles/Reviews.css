@@ -1,0 +1,25 @@
+.more_reviews{
+    background: #fcc01c;
+    color: white;
+    padding: 1em;
+    border: none;
+}
+
+@media screen and (min-width: 650px){
+    .chef_reviews{
+        width: 60vw;
+        margin: 1em 5em;
+        /* width: 51.4em;
+        margin: 0 5.8em; */
+    }
+    .item-review{
+        width: 30vw;
+        padding: 1em;
+        text-align: center;
+    }
+    .reviews_only{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}

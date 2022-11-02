@@ -1,0 +1,49 @@
+.box-comp {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 60vh;
+    color: white;
+    margin: 1em auto;
+}
+
+.box-comp h3 {
+    margin: 2em;
+    font-weight: 600;
+}
+
+.box-comp button {
+    padding: 1em;
+    margin: 2em;
+    width: 50vw;
+    height: 4em;
+    font-weight: 600;
+    border: 0;
+}
+@media screen and (min-width: 650px){
+.box-comp{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 50vh;
+    color: white;
+    margin: 1em auto;
+}
+.box-comp h3{
+    margin: 2em;
+    font-weight: 600;
+}
+.box-comp button{
+    padding: 1em;
+    margin: 2em;
+    width: 19em;
+    height: 4em;
+    font-weight: 600;
+}
+}
