@@ -1,5 +1,6 @@
 .eventicon {
     font-size: 1.5em;
+    margin: 0.5em;
 }
 
 .event-div {
@@ -10,14 +11,16 @@
     align-items: center;
     margin: 1em;
     background: rgba(252, 192, 28, 0.2);
+    position: relative;
 }
 
 .event-div input {
     outline: none;
-    width: 60vw;
+    width: 56vw;
     height: 3.5em;
     padding: 1em;
-
+    position:absolute;
+    right:0;
 }
 
 button:disabled{

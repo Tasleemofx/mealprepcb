@@ -5,7 +5,7 @@ import "../styles/locationpage.css"
 const Locationpage = ({formvalues, setFormvalues, onClick}) => {
   return (
     <div className="center-custom">
-        <p className="major-txt"> What's your Location</p>
+        <p className="location-txt"> What's your Location</p>
         <form className="location-form">                
                 <div className="input-div">
                   <IoLocationSharp className="location-icon"/>

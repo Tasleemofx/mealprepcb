@@ -12,7 +12,7 @@ const AnyAllergy = ({formvalues, setFormvalues, page, setPage}) => {
         className="sm-btn">Yes</div>
         <div onClick={()=>{
           setFormvalues({...formvalues, dietary: false})
-          setPage(page+1)}}
+          setPage(page+2)}}
         className="sm-btn">No</div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiDish } from "react-icons/bi"
+import cooking from "./images/cooking.png"
 import "../styles/needfor.css"
 
 const prepfor = ({formvalues, setFormvalues, page, setPage}) => {
@@ -10,16 +10,16 @@ const prepfor = ({formvalues, setFormvalues, page, setPage}) => {
           setFormvalues({...formvalues, prep:"weekly"})
           setPage(page+1)
       }}>
-            <BiDish/>
+            <img src={cooking} alt="cooking"/>
             <p>Weekly Prep</p>
         </div>
         <div className="need monthly" onClick={()=> {
           setFormvalues({...formvalues, prep:"monthly"})
           setPage(page+1)
         }}>
-            <BiDish/>
-            <BiDish/>
-            <BiDish/>
+            <img src={cooking} alt="cooking"/>
+            <img src={cooking} alt="cooking"/>
+            <img src={cooking} alt="cooking"/>
             <p>Monthly Prep</p>
         </div>
     </div>

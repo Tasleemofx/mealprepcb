@@ -20,7 +20,6 @@ const WeeklyPrep = ({formvalues, setFormvalues, onClick}) => {
             <option value="None" default>Select the number of days for weekly visit</option>
             <option value="3" >3</option>
             <option value="4" >4</option>
-            <option value="5" >5</option>
         </select>
         }
         <p>{`Selected: ${formvalues.days} days weekly `}</p>

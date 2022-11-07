@@ -1,10 +1,17 @@
-import React, {useId} from "react";
+import React, {useId, useEffect} from "react";
 import {AddonData} from "./AddonData"
+import axios from "axios"
 import { AiFillLeftCircle, AiFillRightCircle} from "react-icons/ai"
 import "../styles/AddonServices.css"
 
 const AddonServices =()=>{
     const Id = useId()
+
+    // Add-ons array is empty
+    useEffect(()=>{
+        axios.get('https://ikookauthenticationapiv2.herokuapp.com/menu/addons')
+        .then(res=> console.log(res))
+    },[])
     return(
         <div>
             <h3>Add on services</h3>

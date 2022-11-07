@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiDish } from "react-icons/bi"
+import cooking from "./images/cooking.png"
 import { MdDeliveryDining } from "react-icons/md"
 import "../styles/chefdelivery.css"
 
@@ -13,7 +13,7 @@ const ChefDelivery = ({formvalues, setFormvalues, page, setPage}) => {
               setPage(page + 1)
             }}
             className="chef-btn">
-                <BiDish/>
+                <img src={cooking} alt="cooking"/>
                 <p>Physical</p>
             </div>
             <div onClick={()=> {

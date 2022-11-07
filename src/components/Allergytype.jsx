@@ -16,7 +16,7 @@ const Allergytype = ({formvalues, setFormvalues, onClick}) => {
             <div onClick={()=> setFormvalues({...formvalues, restrictions: "shellfish"})}
             className="sm-btn">
               <div className="ab-circle"></div>Shellfish</div>
-            <div onClick={()=> setFormvalues({...formvalues, restrictions:  "nuts"})}
+            <div onClick={()=> setFormvalues({...formvalues, restrictions: "nuts"})}
             className="sm-btn">
               <div className="ab-circle"></div>Nuts</div>
             <div onClick={()=> setOpenMore(true)} className="sm-btn">

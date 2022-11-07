@@ -1,10 +1,11 @@
-.custom-bookings nav{
-    display: inline-flex;
+.nav-bars{
+    display: flex;
+    justify-content: space-between;
 }
 .col-bar {
     width: 6vw;
     background: #fcc01c;
-    height: 0.3em;
+    height: 0.2em;
     margin: 0.2em;
     border-radius: 5px;
 }
@@ -13,15 +14,16 @@
 .white-bar {
     width: 6vw;
     border: 1px solid#fcc01c;
-    height: 0.3em;
+    height: 0.2em;
     margin: 0.2em;
     border-radius: 5px;
 }
 .BckArrow {
     color: #fcc01c;
     border: 1px solid #fcc01c;
-    font-size: 2em;
-    width: 3em;
+    width: 60px;
+    height: 34px;
+    font-size: 1em;
     margin: 1em;
 }
 
@@ -30,8 +32,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2em;
+    margin: 2em auto;
+    width: 80vw;
     text-align: center;
+}
+
+
+.landing-bgtxt {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.landing-smtxt {
+    font-weight: 400;
+    font-size: 1em;
 }
 .major-txt{
     font-size: 0.8em;
@@ -43,10 +57,11 @@
     flex-wrap: wrap;
 }
 .custom-contd {
-    width: 8em;
     margin: 1em;
+    height: 3.75em;
+    width: 12.5em;
     padding: 0.8em;
-    font-size: 0.8em;
+    font-size: 1em;
     background: #fcc01c;
     color: white;
     border: none;
@@ -72,8 +87,7 @@
     left: 1em;
     top: 1em;
 }
-.custom-value:hover,
-.custom-value:active{
+.custom-value:hover, .custom-value:active{
     background: #fcc01c;
 }
 .sm-div{
@@ -90,17 +104,13 @@
     padding: 2em;
     position: relative;
 }
-.sm-btn:active,
-.sm-btn:hover{
+.sm-btn:active,.sm-btn:hover{
     background: #fcc01c
 }
 @media screen and (min-width: 650px) {
     .major-txt {
             font-size: 2em;
         }
-                
-        
-                
                 .custom-value svg{
                     font-size: 2.5em;
                 }

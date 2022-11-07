@@ -2,18 +2,21 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 13vw;
+    width: 25vw;
     margin: 0.5em;
 }
 .add-on img{
-    width: 13vw;
+    display: block;
+    margin: 0 auto;
+    width: 20vw;
     height: 15vh;
 }
 .add-on-list{
     position: relative;
     display: flex;
     align-items: center;
-    margin: 1em 0;
+    margin: 1em auto;
+    /* width: 60vw; */
 }
 
 .direction_left, .direction_right{
@@ -26,14 +29,30 @@
 }
 .direction_left{
     left: -0.5em;
-    top: 1em;
+    top: 2em;
 }
 .direction_right{
-    right: -0.5em;
-    top: 1em;
+    right: 0em;
+    top: 2em;
 }
 .addon_btn{
     padding: 0.3em 1em;
     border: 1px solid #fcc01c;
     font-weight: 600;
+}
+
+@media screen and (min-width: 650px){
+    .add-on img {
+            width: 13vw;
+            height: 15vh;
+        }
+                .direction_left {
+                    left: -0.5em;
+                    top: 1em;
+                }
+        
+                .direction_right {
+                    right: 0em;
+                    top: 1em;
+                }
 }

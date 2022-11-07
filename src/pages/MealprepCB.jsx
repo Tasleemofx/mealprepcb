@@ -45,15 +45,18 @@ const MealprepCB = () => {
   const barNum =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
   return (
     <main className="custom-bookings">
-      <nav>
+      <div className="nav-bars">
       { barNum.map((item,i)=>{
         return(<div className={ i < page? "col-bar":"white-bar"} key={i}>
         </div>)
       })}
-      </nav>
+      </div>
       <section>
         { page !== 16 &&
-          <BiArrowBack className="BckArrow" onClick={()=> setPage(page-1)}/>
+          <BiArrowBack className="BckArrow" onClick={()=> {
+            if(page > 1){
+            setPage(page-1)}}
+          }/>
         }
         {page === 1? <LandingCustom onClick={()=> setPage(2)}/>
         : page === 2? <Locationpage formvalues={formvalues} setFormvalues={setFormvalues}

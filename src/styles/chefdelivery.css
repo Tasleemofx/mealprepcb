@@ -1,16 +1,19 @@
 .chef-btn{
-        width: 15em;
-        height: 8em;
+        width: 10em;
+        height: 7em;
         margin: 1em;
         padding: 1em;
-        font-size: 1em;
+        font-size: 1.875em;
+        font-weight: 700;
         background: rgba(252, 192, 28, 0.2);
         border: none;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 .chef-btn svg {
-    font-size: 2em;
+    font-size: 3em;
 }
     .chef-btn:hover,
     .chef-btn:active {
@@ -20,8 +23,8 @@
     @media screen and (min-width: 650px){
         .chef-btn{
             font-size: 1.5em;
-            width: 8em;
-            height: 9em;
+            width:13.6em;
+            height: 7.25em;
         }
         
     }

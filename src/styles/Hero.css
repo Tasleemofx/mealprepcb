@@ -6,9 +6,9 @@
 }
 
 .overlay {
-    font-size: 0.3em;
+    font-size: 0.5em;
     font-weight: 600;
-    height: 15vh;
+    height: 20vh;
     width: 80vw;
     position: relative;
     bottom: 6em;
@@ -44,7 +44,11 @@
     align-items: center;
     margin: 2em;
 }
-
+.chef-dets img{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
 .chef-dets div{
     width: 30vw;
     margin: 1em
@@ -88,6 +92,11 @@
 .chef-dets{
     padding: 0 1em;
     flex-direction: row-reverse;
+}
+.chef-dets img {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
 }
 .chef-dets div{
     width: max-content;
